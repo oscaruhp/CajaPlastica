@@ -1,0 +1,121 @@
+.cajasPlasticas {
+			list-style: none;
+		}
+		.cajaPlastica {
+			float: left;
+		}
+		.cajaPlastica a, .cajaPlastica a:link,.cajaPlastica a:visited {
+			border: 0 none;
+			color: #333333;
+			font-size: 13px;
+			text-decoration: underline;
+		}
+		.cajaPlastica a:hover {
+			text-decoration: none;
+		}	
+.cajaPlastica {
+	border: 1px solid #000;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .8);
+	height: 75px;
+	margin: 10px 10px 40px 10px;
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .8);
+	position: relative;
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .8);
+	width: 84px;
+}
+.cajaPlastica img {
+	height: 76px;
+	left: 9px;
+	position: absolute;
+	width: 76px;
+	z-index: -1;
+}
+.cajaPlastica .grooves {
+	background: #000;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	float: left;
+	height: 73px;
+	width: 7px;
+}
+.cajaPlastica .groove1 {
+		background: #333;
+		background: -webkit-gradient(linear, 0% 0%, 0% 90%, from(#333), to(#131313));
+		background: -moz-linear-gradient(0% 90% 45deg, #131313, #333));
+		border: 1px solid #242424;
+		display: block;
+		height: 71px;
+		width: 5px;
+	}
+.cajaPlastica .groove2 {
+		border: 0 solid #242424;
+		border-width: 0 1px;
+		display: block;
+		height: 71px;
+		margin: 0 1px;
+		width: 1px;
+	}
+.cajaPlastica .cover {
+	border: 1px solid rgba(255, 255, 255, .4);
+	border-left: 1px solid #000;
+	height: 73px;
+	overflow: hidden;
+	position: relative;
+	width: 73px;
+}
+.cajaPlastica .glow {
+		background: rgba(255, 255, 255, .2);
+		background: -webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(255, 255, 255, .3)), to(rgba(255, 255, 255, .0)));
+		background: -moz-linear-gradient(0% 90% 45deg,rgba(255, 255, 255, .0), rgba(255, 255, 255, .3));
+		display: block;
+		height: 112px;
+		 -moz-transform: rotate(45deg);
+		margin: -57px 0 0 -57px;
+		-o-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		width: 112px;
+	}
+.cajaPlastica .holder{
+		background-image: -webkit-gradient(linear, 0% 0%, 0% 90%, from(rgba(255, 255, 255, .3)), to(rgba(255, 255, 255, .2)));
+		border: 1px solid rgba(255, 255, 255, .4);
+		border-radius: 2px;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+		height: 4px;
+		-moz-border-radius: 2px;
+		-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+		position: absolute;
+		-webkit-border-radius: 2px;
+		-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+		width: 4px;
+	}
+.cajaPlastica .top-left {left: 5px;top: -3px;}
+.cajaPlastica .top-right {right: 5px;top: -3px;}
+.cajaPlastica .bottom-left {bottom: -3px;left: 5px;}
+.cajaPlastica .bottom-right {bottom: -3px;right: 5px;}
+.cajaPlastica .information {
+	-moz-transition: opacity 1s linear;
+	margin: 10px 0;
+	opacity: 0;
+	-o-transition: opacity 1s linear;
+	position: absolute;
+	-webkit-transition: opacity 1s linear;
+}
+.cajaPlastica:hover .information {
+	opacity: 1;
+}
+.cajaPlastica .information {
+	font-family: Helvetica, â€œHelvetica Neueâ€, Arial, sans-serif;
+	font-size: 10px;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	width: 84px;
+}
+.cajaPlastica .title{
+		font-weight: bold;
+		white-space: nowrap;
+	}
+.cajaPlastica .artist {
+		color: #ccc;
+		margin: 5px 0;
+		white-space: nowrap;
+	}

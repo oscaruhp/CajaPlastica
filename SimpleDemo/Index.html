@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HoverShakeImage.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+    <!-- <script src="CajaPlastica.js"></script> -->
+    <link href="CajaPlastica.css" rel="stylesheet">
+      <script src="CajaPlastica.js"></script>
+  </head>
+  <body>
+      
+      <div id="Resultado"></div>
+      <img href="http://google.com.mx" alt="Texto" title="Titulo" id="caja"/>
+
+    <script>
+
+   var data = [ 
+ {"url":"http://img.youtube.com/vi/u6z5U83lfrQ/default.jpg", "link": "http://google.com.mx","alt":"título"}, 
+ {"url":"http://img.youtube.com/vi/PfGaX8G0f2E/default.jpg", "link": "","alt":"título"}, 
+ {"url":"http://img.youtube.com/vi/cNw8A5pwbVI/default.jpg", "link": "","alt":"título"}
+];
+        $('#Resultado').CajaPlastica(data);
+   
+   $('#caja').CajaPlasticaUnica({idyoutube:"u6z5U83lfrQ"});
+        
+        
+</script>  
+      http://jsfiddle.net/yvD5S/
+  
+  </body>
+</html>
